@@ -3,7 +3,12 @@
 Installation Requirements:
 
 pip install grequests
+
 pip install PySide2
+
+pip install pysqlite3 
+
+pip install db-sqlite3
 
 
 The appliacion uses database to store the result and the result will also be fetched from database and save in a json file.
