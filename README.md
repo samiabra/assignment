@@ -6,10 +6,11 @@ pip install grequests
 
 pip install PySide2
 
-pip install pysqlite3 
+maybe: pip install pysqlite3 
 
-pip install db-sqlite3
+maybe: pip install db-sqlite3
 
+maybe: sudo apt-get install python3-tk
 
 The appliacion uses database to store the result and the result will also be fetched from database and save in a json file.
 The application provides two different UIs (tkinter and Qt), you can decide which one you prefer (uncomment what you like and comment what you dislike)
